@@ -1,3 +1,4 @@
+import MagicButton from "@/components/MagicButton";
 import { FileUpload } from "@/components/ui/FileUpload";
 import Image from "next/image";
 
@@ -10,6 +11,8 @@ export default function Home() {
       </div>
 
       <FileUpload />
+
+      <MagicButton />      
     </main>
   );
 }
